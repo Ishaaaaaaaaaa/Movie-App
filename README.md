@@ -22,4 +22,4 @@ Movie Explorer is a web application that allows users to search for movies based
 3. Movies are displayed dynamically with their details.  
 4. Users can explore more or refine their search.  
 
-Would you like help with the implementation or a specific feature? 🚀
+
