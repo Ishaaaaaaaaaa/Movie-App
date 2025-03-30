@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+       <h1 class="heading-1"> Movie App</h1>
+       <div class="search-container">
+        <input class="input" placeholder="Search a movie">
+       </div>
+       <div class="options">
+        <select class="rating-select" id="rating-select">
+            <option class="option" value="">Rating</option>
+            <option class="option" value="7">7 & above</option>
+            <option class="option" value="8">8 & above</option>
+            <option class="option" value="8.5">8.5 & above</option>
+            <option class="option" value="9">9 & above</option>
+        
+        </select>
+       </div>
+       <div class="">
+        <select class="rating-select" id="genre-select">
+            <option class="option" value="">Genre</option>
+        </select>
+       </div>
+    </header>
+    <main class="main">
+        <div class="card shawdow">
+            <div class="card-image-container">
+               <img src="https://musicart.xboxlive.com/7/77295200-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080" class="card-image" alt="The GodFather">
+            </div>
+            <div class="movies">
+                <p class="title">The GodFather</p>
+                <p class="genre">Genre:Action Drama</p>
+                <div class="ratings">
+                    <div class="star-rating">
+                        <span class="material-symbols-outlined">
+                            star
+                            </span>
+                        <span>8.7</span>
+                    </div>
+                    <p>137 mins</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type= "module" src="index.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+</body>
+</html>
