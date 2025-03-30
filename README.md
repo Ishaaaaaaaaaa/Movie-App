@@ -22,4 +22,5 @@ Movie Explorer is a web application that allows users to search for movies based
 3. Movies are displayed dynamically with their details.  
 4. Users can explore more or refine their search.  
 
+![Movie App - Personal - Microsoft​ Edge 30-03-2025 19_07_57](https://github.com/user-attachments/assets/37b0e14c-4831-4654-804f-30510d11d660)
 
